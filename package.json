@@ -22,15 +22,20 @@
 		"xlsx": "^0.18.5"
 	},
 	"devDependencies": {
+		"@typescript-eslint/eslint-plugin": "^5.59.8",
+		"@typescript-eslint/parser": "^5.59.8",
 		"@vitejs/plugin-vue": "^3.0.0",
 		"@vue/compiler-sfc": "^3.1.2",
+		"eslint": "^8.41.0",
+		"eslint-config-airbnb-base": "^15.0.0",
+		"eslint-plugin-import": "^2.27.5",
+		"eslint-plugin-vue": "^9.14.1",
+		"husky": "^8.0.3",
+		"lint-staged": "^13.1.2",
 		"typescript": "^4.6.4",
 		"unplugin-auto-import": "^0.11.2",
 		"unplugin-vue-components": "^0.22.4",
 		"vite": "^3.0.0",
-
-		"husky": "^8.0.3",
-		"lint-staged": "^13.1.2",
 		"vite-plugin-vue-setup-extend": "^0.4.0",
 		"vue-tsc": "^0.38.4"
 	},
@@ -40,8 +45,8 @@
 		"not dead"
 	],
 	"lint-staged": {
-	  "**/*.{json,js,ts,vue,md}": [
-		"eslint --fix"
-	  ]
+		"**/*.{json,js,ts,vue,md}": [
+			"eslint --fix"
+		]
 	}
 }
