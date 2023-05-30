@@ -64,9 +64,9 @@ const collapseChage = () => {
 };
 
 onMounted(() => {
-  if (document.body.clientWidth < 1500) {
-    collapseChage();
-  }
+//   if (document.body.clientWidth < 1500) {
+//     collapseChage();
+//   }
 });
 
 // 用户名下拉菜单选择事件
